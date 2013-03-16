@@ -1,0 +1,16 @@
+{
+  "name": "joyent-ip",
+  "version": "1.0.0",
+  "description": "Get the internal ip address of a Linux machine hosted by Joyent",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": "",
+  "author": "",
+  "license": "BSD",
+  "dependencies": {
+    "eyespect": "~0.1.8",
+    "mocha": "~1.8.2"
+  }
+}
