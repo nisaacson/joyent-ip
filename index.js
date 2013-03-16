@@ -1,4 +1,3 @@
-var inspect = require('eyespect').inspector()
 var os = require('os');
 var ifaces = os.networkInterfaces();
 var output = {}
@@ -19,7 +18,6 @@ function getAll() {
       }
     });
   }
-  inspect(output, 'output')
   return output
 }
 function getInternal() {
